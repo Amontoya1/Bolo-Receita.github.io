@@ -1,0 +1,54 @@
+@charset "UTF8";
+@font-face {
+    font-family:"fonteInicial";
+    src: url("../font/_Yellowtail-Regular");
+}
+
+body {
+    background-color: cornsilk;
+    background-image:url(imagens/fundo.jpg);
+    color: rgb(11, 12, 11);
+}
+
+div#interface {
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(190, 111, 19, 0.87);
+    padding: 15px;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+    
+  }
+header#cabecalho h1 {
+    font-family: "fonteInicial", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    margin-top: 60px;
+}
+figure.foto-legenda {
+   position: relative; 
+   border: 8px solid rgb(168, 139, 139);
+   box-shadow: 1px 1px 4px black; 
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0%;
+    position: absolute;
+    top: 0px;
+    background-color:rgba(0,0,0,.4);
+    color: white;
+    width: 100%;
+    height:100% ;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+
+}
